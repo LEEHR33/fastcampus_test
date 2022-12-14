@@ -17,7 +17,7 @@ pip freeze >> requirements.txt
 virtualenv -p python myenv
 pip3 install -r requirements.txt
 python3 manage.py runserver 0.0.0.0:8000
-^c
+^z
 bg
 disown -h
 
